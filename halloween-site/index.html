@@ -1,0 +1,37 @@
+<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Cannrise – Halloween Homepage Preview</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Heebo:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0F0B17;--card:#1E1530;--bone:#F3E6C8;--orange:#F07F1F;--muted:#B9AE98}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--bone);font-family:Heebo,Arial,sans-serif}
+header{text-align:center;padding:34px 16px 18px;background:radial-gradient(ellipse at 50% 0,#2A1C40,transparent 70%)}
+.k{font-family:Cinzel,serif;letter-spacing:.28em;color:var(--orange);font-size:13px;font-weight:700;direction:ltr}
+h1{font-family:Cinzel,serif;font-weight:900;font-size:clamp(26px,4.4vw,44px);margin:10px 0 8px;direction:ltr}
+header p{margin:0 auto;max-width:640px;color:var(--muted);font-size:15px;line-height:1.7}
+.tabs{display:flex;justify-content:center;gap:10px;margin:22px 0 6px;direction:ltr}
+.tabs button{font:700 15px Heebo,Arial;padding:11px 26px;border-radius:30px;border:1px solid var(--orange);background:transparent;color:var(--bone);cursor:pointer}
+.tabs button.on{background:var(--orange);color:#1A0F05}
+main{padding:18px 16px 50px}
+.browser{max-width:1240px;margin:0 auto;border-radius:12px;overflow:hidden;box-shadow:0 0 0 1px rgba(240,127,31,.45),0 30px 80px rgba(0,0,0,.6);background:#000}
+.bar{display:flex;align-items:center;gap:8px;padding:10px 14px;background:#1A1324;direction:ltr}
+.bar i{width:11px;height:11px;border-radius:50%;background:#3a2f4a;display:inline-block}
+.bar span{flex:1;margin-left:12px;background:#0F0B17;border-radius:16px;padding:6px 14px;font-size:13px;color:var(--muted)}
+.phone{width:min(400px,100%);margin:0 auto;border-radius:44px;padding:14px;background:#06040A;box-shadow:0 0 0 2px #2b2238,0 0 0 1px rgba(240,127,31,.45),0 30px 80px rgba(0,0,0,.6)}
+.phone .scr{border-radius:32px;overflow:hidden;max-height:80vh;overflow-y:auto}
+img{display:block;width:100%;height:auto}
+.hide{display:none}
+.banners{max-width:1240px;margin:44px auto 0;display:grid;grid-template-columns:2.2fr 1fr;gap:18px}
+.banners figure{margin:0;background:var(--card);border-radius:12px;padding:12px;border:1px solid rgba(240,127,31,.3)}
+.banners figcaption{font-size:13px;color:var(--muted);margin-top:8px}
+@media(max-width:760px){.banners{grid-template-columns:1fr}}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:0 16px 30px}
+</style></head><body>
+<header><div class="k">CANNRISE · HALLOWEEN 2026</div><h1>Homepage Preview</h1>
+<p>כך ייראה דף הבית של cannrise.com במבצע ההאלווין: Buy 2, Get 1 Free עם הקוד BUY2GET1, עד 31 באוקטובר. זוהי הדמיה לאישור בלבד, והאתר החי לא השתנה.</p>
+<div class="tabs"><button class="on" data-v="d">Desktop</button><button data-v="m">Mobile</button></div></header>
+<main><div id="d" class="browser"><div class="bar"><i></i><i></i><i></i><span>cannrise.com</span></div><img src="img/d_00.jpg" alt="" ><img src="img/d_01.jpg" alt="" loading="lazy"><img src="img/d_02.jpg" alt="" loading="lazy"><img src="img/d_03.jpg" alt="" loading="lazy"><img src="img/d_04.jpg" alt="" loading="lazy"><img src="img/d_05.jpg" alt="" loading="lazy"></div>
+<div id="m" class="phone hide"><div class="scr"><img src="img/m_00.jpg" alt="" ><img src="img/m_01.jpg" alt="" ><img src="img/m_02.jpg" alt="" ><img src="img/m_03.jpg" alt="" ><img src="img/m_04.jpg" alt="" ><img src="img/m_05.jpg" alt="" ><img src="img/m_06.jpg" alt="" ><img src="img/m_07.jpg" alt="" ><img src="img/m_08.jpg" alt="" ><img src="img/m_09.jpg" alt="" ><img src="img/m_10.jpg" alt="" ></div></div>
+<section class="banners"><figure><img src="img/banner_desktop.jpg" loading="lazy" alt=""><figcaption>Hero banner – desktop (2680×1480)</figcaption></figure><figure><img src="img/banner_mobile.jpg" loading="lazy" alt=""><figcaption>Hero banner – mobile (1200×1600)</figcaption></figure></section></main>
+<footer>Preview prepared by EZ-Commerce · October 2026</footer>
+<script>document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tabs button").forEach(x=>x.classList.toggle("on",x===b));document.getElementById("d").classList.toggle("hide",b.dataset.v!=="d");document.getElementById("m").classList.toggle("hide",b.dataset.v!=="m");});</script>
+</body></html>
